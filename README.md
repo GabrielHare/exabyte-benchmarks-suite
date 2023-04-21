@@ -24,7 +24,10 @@ Follow the explanation in [Configuration](#configuration) section below for syst
 
 ## Installation
 
-1. Install [git-lfs](https://help.github.com/articles/installing-git-large-file-storage/) in order to get files stored on git LFS.
+1. Install [git-lfs](https://github.com/git-lfs/git-lfs/blob/main/INSTALLING.md) in order to get files stored on git LFS.
+
+   $ curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+   $ sudo apt install -y git-lfs
 
 2. Clone the repository into the user home directory
 
